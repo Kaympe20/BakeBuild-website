@@ -32,7 +32,6 @@ body {
   height: 100%;
   background: url('../assets/cookie-stack.png') repeat-y center/contain;
   z-index: 1;
-  opacity: 0.8;
 }
 
 .cookie-border-left {
@@ -59,7 +58,7 @@ button {
   padding: px 20px;
   font-weight: bold;
   color: #442119;
-  width: 100%;
+  width: 200px;
   height: 60px;
   cursor: pointer;
 }
@@ -74,4 +73,16 @@ h1 {
   font-family: Lazy Dog;
   font-size: 4em;
   color: #83583c;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto; /* Adjust as needed */
 }
