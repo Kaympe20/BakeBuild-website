@@ -132,6 +132,7 @@ h2 {
 .resources li {
   width: 20em;
   margin-bottom: 2em;
+  text-align: center;
 }
 
 .resources li:nth-child(odd)::before {
