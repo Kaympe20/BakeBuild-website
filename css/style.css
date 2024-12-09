@@ -169,3 +169,7 @@ h3 {
   font-size: smaller;
   color: #c6926c;
 }
+
+.reset {
+  all: unset;
+}
