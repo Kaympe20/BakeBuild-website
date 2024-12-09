@@ -121,3 +121,29 @@ h2 {
   top: 0;
   color: #ffffff; /* Change this to your desired number color */
 }
+
+.numbered-list li p {
+  font-family: 'Playpen Sans';
+  color: #c6926c;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+section h1 {
+  width: 100%;
+  text-align: center;
+}
+
+section ol {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+}
