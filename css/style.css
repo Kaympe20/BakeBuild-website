@@ -129,6 +129,15 @@ h2 {
   margin-right: auto;
 }
 
+.resources li {
+  width: 20em;
+  margin-bottom: 2em;
+}
+
+.resources li:nth-child(odd)::before {
+  background-color: #c6926c;
+}
+
 section {
   display: flex;
   justify-content: center;
@@ -146,4 +155,10 @@ section ol {
   width: 50%;
   margin: 0 auto;
   text-align: left;
+}
+
+h3 {
+  font-family: More-Sugar;
+  font-size: smaller;
+  color: #c6926c;
 }
