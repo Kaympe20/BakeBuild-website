@@ -76,6 +76,11 @@ h1 {
   color: #83583c;
 }
 
+h2 {
+  font-family: More-Sugar;
+  color: #83583c;
+}
+
 .center {
   margin-left: auto;
   margin-right: auto;
@@ -86,4 +91,33 @@ h1 {
   justify-content: center;
   align-items: center;
   height: auto; /* Adjust as needed */
+}
+
+.numbered-list {
+  counter-reset: list-counter;
+  list-style: none;
+  padding-left: 0;
+}
+
+.numbered-list li {
+  counter-increment: list-counter;
+  margin-bottom: 1em;
+  position: relative;
+  padding-left: 3.5em; /* Increase padding to make space for the circle */
+}
+
+.numbered-list li::before {
+  content: counter(list-counter);
+  background-color: #cfb886;
+  border-radius: 50%;
+  display: inline-block;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  text-align: center;
+  font-size: 1.5em;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ffffff; /* Change this to your desired number color */
 }
