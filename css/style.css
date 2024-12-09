@@ -130,9 +130,15 @@ h2 {
 }
 
 .resources li {
-  width: 20em;
+  width: max-content;
   margin-bottom: 2em;
   text-align: center;
+  font-family: Playpen Sans;
+  color: #c6926c;
+}
+
+.resources li:nth-child(odd) {
+  color: #cfb886;
 }
 
 .resources li:nth-child(odd)::before {
